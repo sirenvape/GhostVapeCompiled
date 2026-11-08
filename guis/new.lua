@@ -804,7 +804,7 @@ function vape:LoadOptions(obj, data)
 end
 
 function vape:LoadGUI()
-	addMaid(vape)
+		addMaid(vape)
 	gui = Instance.new('ScreenGui')
 	gui.Name = randomString()
 	gui.DisplayOrder = 9999999
@@ -1091,7 +1091,7 @@ function vape:LoadGUI()
 			if shared.VapeDeveloper then
 				loadstring(readfile('newvape/loader.lua'), 'loader')()
 			else
-				loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua', true))()
+		https://raw.githubusercontent.com/sirenvape/GhostVapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua'
 			end
 		end,
 		Tooltip = 'This will set your profile to the default settings of Vape'
@@ -1112,7 +1112,7 @@ function vape:LoadGUI()
 			if shared.VapeDeveloper then
 				loadstring(readfile('newvape/loader.lua'), 'loader')()
 			else
-				loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua', true))()
+				https://raw.githubusercontent.com/sirenvape/GhostVapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua'
 			end
 		end,
 		Tooltip = 'Reloads vape for debugging purposes'
@@ -1245,7 +1245,7 @@ function vape:LoadGUI()
 				if shared.VapeDeveloper then
 					loadstring(readfile('newvape/loader.lua'), 'loader')()
 				else
-					loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua', true))()
+					https://raw.githubusercontent.com/sirenvape/GhostVapeCompiled/'..readfile('newvape/profiles/commit.txt')..'/loader.lua'
 				end
 			end
 		end,
